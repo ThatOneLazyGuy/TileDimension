@@ -4,8 +4,10 @@ A shaderpack that makes all terrain textures appear as if they are a windows int
 This shaderpack is based on [XorDevs-Default-Shaderpack](https://github.com/XorDev/XorDevs-Default-Shaderpack).
 
 The shaderpack uses all shaders from XorDev's shaderpack but adds:\
-gbuffer_terrain.vsh\
-gbuffer_terrain.fsh
+gbuffer_terrain_solid.vsh\
+gbuffer_terrain_solid.fsh\
+gbuffer_terrain_cutout.vsh\
+gbuffer_terrain_cutout.fsh
 
 Shaderpack settings:
 - TextureResolution: the resolution for a block texture in the currently active texturepack (Used to properly render the tiling effect).
